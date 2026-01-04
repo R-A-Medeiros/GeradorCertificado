@@ -72,6 +72,10 @@ label {
     box-shadow: none;
 }
 
+.custom-imput-group {
+    margin-bottom: 20px !important;
+}
+
 .custom-imput-group:has(input:focus) label {
     color: #3B5AC2;
 }
