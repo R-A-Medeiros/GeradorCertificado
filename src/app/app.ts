@@ -7,12 +7,13 @@ import { ItemCertificado } from "./_components/item-certificado/item-certificado
 import { BaseUi } from "./_components/base-ui/base-ui";
 import { Certificados } from "./pages/certificados/certificados";
 import { CertificadoForm } from "./pages/certificado-form/certificado-form";
+import { Certificado } from "./pages/certificado/certificado";
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, Navbar, PrimaryButton, SecondaryButton, ItemCertificado, BaseUi, Certificados, CertificadoForm],
+  imports: [RouterOutlet, Navbar, PrimaryButton, SecondaryButton, ItemCertificado, BaseUi, Certificados, CertificadoForm, Certificado],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
