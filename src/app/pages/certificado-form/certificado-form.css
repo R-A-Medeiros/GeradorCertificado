@@ -94,6 +94,6 @@ label {
     vertical-align: middle; 
 }
 
-.custom-imput-group:has(.error-message) > label {
+.text-danger-label {
     color: #D71D1D;
 }
